@@ -1,0 +1,19 @@
+# Core API & Web
+fastapi==0.104.1
+uvicorn==0.23.2
+python-dotenv==1.0.0
+
+# LLM & RAG Framework
+langchain==0.0.335
+openai==0.28.1
+tiktoken==0.5.1
+
+# Vector Database (We will use Chroma for easy local setup, though Weaviate is great for production)
+chromadb==0.4.15
+
+# NLP & ML
+transformers==4.35.0
+torch==2.1.0
+
+# Data Manipulation
+pandas==2.1.2

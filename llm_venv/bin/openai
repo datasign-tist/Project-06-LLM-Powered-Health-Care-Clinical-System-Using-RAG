@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/Users/abhisheksharma/Documents/Data Science Projects/Project-06-LLM-Powered-Health-Care-Clinical-System-Using-RAG/llm_venv/bin/python3" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from openai._openai_scripts import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
